@@ -1,0 +1,11 @@
+[
+  {
+    "type": "MOD_INFO",
+    "ident": "FEV",
+    "name": "FEV Experiment",
+    "authors": [ "Brigand231" ],
+    "description": "Some background settings to simulate being a crazy FEV experiment.",
+    "category": "rebalance",
+    "dependencies": [ "dda" ],
+      }
+]
