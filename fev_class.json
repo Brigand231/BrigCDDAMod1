@@ -8,26 +8,16 @@
       "bio_targeting",
       "bio_purifier",
       "bio_carbon",
-      "bio_geiger",
-      "bio_adrenaline",
-      "bio_night_vision",
       "bio_metabolics",
-      "bio_ads",
-      "bio_alarm",
-      "bio_blindfold",
-      "bio_blood_anal",
-      "bio_cable",
       "bio_digestion",
       "bio_ears",
       "bio_eye_optic",
       "bio_fingerhack",
-      "bio_flashlight",
-      "bio_memory",
-      "bio_nanobots",
       "bio_recycler",
       "bio_solar",
       "bio_sunglasses",
       "bio_watch",
+	  "bio_soporific",
       "bio_power_storage_mkII"
     ],
     "skills": [
@@ -41,7 +31,6 @@
       { "level": 12, "name": "throw" },
       { "level": 12, "name": "cutting" },
       { "level": 12, "name": "bashing" },
-      { "level": 12, "name": "piercing" },
       { "level": 12, "name": "stabbing" },
       { "level": 12, "name": "unarmed" },
       { "level": 12, "name": "melee" },
@@ -59,8 +48,9 @@
       { "level": 12, "name": "speech" },
       { "level": 12, "name": "computer" },
       { "level": 12, "name": "survival" }
-    ],
-    "items": {
+	  ],
+	"pets": [ { "name": "mon_dog", "amount": 1 } ],
+        "items": {
       "both": {
         "items": [
           "wetsuit",
@@ -71,14 +61,16 @@
           "wetsuit_gloves",
           "gloves_tactical",
           "socks",
+		  "pet_carrier",
           "boots_combat",
-          "dive_bag",
-          "diving_watch"
+		  "survivor_rucksack",
+          "personal_gobag",
+		  "diving_watch"
         ],
         "entries": [
           { "item": "kukri", "container-item": "sheath" },
-          {
-            "item": "rm2000_smg",
+          { "item": "knife_hunting", "container-item": "survivor_belt" },
+          { "item": "rm2000_smg",
             "ammo-item": "8mm_fmj",
             "charges": 25,
             "contents-item": [ "shoulder_strap", "suppressor", "holo_sight" ]
